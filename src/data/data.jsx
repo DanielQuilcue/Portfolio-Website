@@ -61,25 +61,25 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Daniel ',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'Quilcue',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '23 Years',
   },
 
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Tunisian',
+    description: 'Colombia',
   },
 
   {
@@ -91,13 +91,13 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Tunis',
+    description: 'Bogotá',
   },
 
   {
     id: 7,
     title: 'Phone : ',
-    description: '+21621184010',
+    description: '+57 3228369024',
   },
 
   {
@@ -106,17 +106,17 @@ export const personalInfo = [
     description: 'you@mail.com',
   },
 
-  {
-    id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
-  },
+  // {
+  //   id: 9,
+  //   title: 'Skype : ',
+  //   description: 'steve.milner',
+  // },
 
-  {
-    id: 10,
-    title: 'Langages : ',
-    description: 'French, English',
-  },
+  // {
+  //   id: 10,
+  //   title: 'Langages : ',
+  //   description: 'French, English',
+  // },
 ];
 
 export const stats = [

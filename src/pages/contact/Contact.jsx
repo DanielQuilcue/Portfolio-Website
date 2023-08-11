@@ -2,10 +2,10 @@
 import {
   FaEnvelopeOpen,
   FaPhoneSquareAlt,
-  // FaFacebookF,
-  // FaTwitter,
-  // FaYoutube,
-  // FaDribble,
+  FaFacebookF,
+  FaTwitter,
+  FaYoutube,
+  FaDribbble,
 } from 'react-icons/fa';
 
 import { FiSend } from 'react-icons/fi'
@@ -28,7 +28,7 @@ const Contact = () => {
 
               <div>
                 <span className='info__title'>Mail me</span>
-                <span className='info__desc'>emial@gmail.com</span>
+                <h4 className='info__desc'>emial@gmail.com</h4>
               </div>
             </div>
 
@@ -37,13 +37,67 @@ const Contact = () => {
 
               <div>
                 <span className='info__title'>Call me</span>
-                <span className='info__desc'>+57 3228369024</span>
+                <h4 className='info__desc'>+57 3228369024</h4>
               </div>
             </div>
 
           </div>
-          
+
+          <div className='contact__socials'>
+            <a href='#' className='contact__social-link'>
+              <FaFacebookF />
+            </a>
+            <a href='#' className='contact__social-link'>
+              <FaTwitter />
+            </a>
+            <a href='#' className='contact__social-link'>
+              <FaYoutube />
+            </a>
+            <a href='#' className='contact__social-link'>
+              <FaDribbble />
+            </a>
+          </div>
+
         </div>
+
+        <form className='contact__form'>
+          <div className='form__input-group'>
+            <div className='form__input-div'>
+              <input
+                type='text'
+                className='form__control'
+                placeholder='Your Name'
+              />
+            </div>
+
+            <div className='form__input-div'>
+              <input
+                type='email'
+                className='form__control'
+                placeholder='Your Email'
+              />
+            </div>
+            <div className='form__input-div'>
+              <input
+                type='text'
+                className='form__control'
+                placeholder='Your Subject'
+              />
+            </div>
+          </div>
+
+          <div className='form__input-div'>
+            <textarea placeholder='Your Message' className='form__control textarea'>
+
+            </textarea>
+          </div>
+
+          <button className='button'>Send Message <span className='button__icon contact__button-icon'>
+            <FiSend />
+          </span>
+          </button>
+
+        </form>
       </div>
     </section>
   )
